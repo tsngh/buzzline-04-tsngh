@@ -68,7 +68,9 @@ def update_chart():
 
     # Create a bar chart using the bar() method.
     # Pass in the x list, the y list, and the color
-    ax.bar(category_list, counts_list, color="purple")
+
+    colors = ["blue","coral", "seagreen", "violet","gold","gray","black"]
+    ax.bar(category_list, counts_list,color= colors)
 
     # Use the built-in axes methods to set the labels and title
     ax.set_xlabel("Categories")

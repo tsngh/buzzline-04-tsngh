@@ -66,13 +66,13 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.basic_json_producer_case
+py -m producers.project_producer_case
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.basic_json_producer_case
+python3 -m producers.project_producer_case
 ```
 
 ### Consumer Terminal
@@ -85,13 +85,13 @@ Use the commands below to activate .venv, and start the consumer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m consumers.basic_json_consumer_case
+py -m consumers.project_consumer_tsngh
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.basic_json_consumer_case
+python3 -m consumers.project_consumer_tsngh
 ```
 
 ### Review the Application Code
